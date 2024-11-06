@@ -28,3 +28,16 @@ variable "db_name" {
   description = "name of the database"
   type        = string
 }
+
+variable "domain_name" {
+  description = "domain name"
+  type        = string
+}
+
+variable "cheego_aws_access_key" {
+  description = "aws access key"
+}
+
+variable "cheego_aws_secret_key" {
+  description = "aws secret key"
+}
